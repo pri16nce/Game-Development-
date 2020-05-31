@@ -95,12 +95,53 @@ body {
   padding: 10px;
   min-width: 100px;
   border-radius: 20px;
-  color: white;
+  color:#0af351;
   margin: 20px;
   outline: none;
   cursor: pointer;
-  background: linear-gradient(rgb(255, 151, 207), rgb(255, 68, 146));
+  transition: background-color 0.4s,border 0.4s,color 0.4s;
+  
 }
+ /* 
+.btn:link,
+input[type=submit],
+.btn:visited{
+    display: inline-block;
+    padding:10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.4s,border 0.4s,color 0.4s;
+    margin-right: 15px;
+    
+       
+}
+*/
+
+
+.btn-ghost:link,
+.btn-ghost:visited,
+.btn-overlay:link,
+.btn-overlay:visited{
+   border: 1px solid #0af351; 
+    color:#0af351; 
+}
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active{
+    background-color:#09d246;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active,
+.btn-overlay:hover,
+.btn-overlay:active{
+   border: 1px solid #0af351; 
+    color:#fff; 
+}
+
+
 
 .btn-form {
   border: none;
@@ -110,7 +151,7 @@ body {
   position: absolute;
   height: 100%;
   width: 50%;
-  background: linear-gradient(rgb(255, 151, 207), rgb(255, 68, 146));
+  background: linear-gradient(rgba(10, 243, 81, 0.92),rgba(10, 243, 81, 0.7));
   top: 50%;
   transform: translateY(-50%);
   left: 0;
@@ -142,7 +183,7 @@ body {
 }
 
 .btn-overlay {
-  border: solid 1px white;
+  border:none;
 }
 
 .overlay-signup {
