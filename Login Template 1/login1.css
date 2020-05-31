@@ -11,13 +11,13 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #8f95c7;
+  background: #f6f5f7;
 }
 
 .container {
   position: relative;
   padding: 40px 20px;
-  background: rgb(83, 189, 207);
+  background: white;
   border-radius: 10px;
   width: 700px;
   min-height: 400px;
@@ -95,7 +95,7 @@ body {
   padding: 10px;
   min-width: 100px;
   border-radius: 20px;
-  color:#32809b;
+  color:#0af351;
   margin: 20px;
   outline: none;
   cursor: pointer;
@@ -123,21 +123,21 @@ input[type=submit],
 .btn-ghost:visited,
 .btn-overlay:link,
 .btn-overlay:visited{
-   border: 1px solid #32809b; 
-    color:#32809b; 
+   border: 1px solid #0af351; 
+    color:#0af351; 
 }
 .btn:hover,
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active{
-    background-color:#32809b;
+    background-color:#09d246;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active,
 .btn-overlay:hover,
 .btn-overlay:active{
-   border: 1px solid #32809b; 
+   border: 1px solid #0af351; 
     color:#fff; 
 }
 
@@ -151,7 +151,7 @@ input[type=submit]:active{
   position: absolute;
   height: 100%;
   width: 50%;
-  background: linear-gradient(rgba(10, 243, 81, 0.92),rgba(10, 243, 81, 0.7));
+  background: linear-gradient(rgba(8, 123, 143, 0.92),rgba(10, 243, 243, 0.92));
   top: 50%;
   transform: translateY(-50%);
   left: 0;
