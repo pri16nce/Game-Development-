@@ -11,13 +11,13 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #f6f5f7;
+  background: #8f95c7;
 }
 
 .container {
   position: relative;
   padding: 40px 20px;
-  background: white;
+  background: rgb(83, 189, 207);
   border-radius: 10px;
   width: 700px;
   min-height: 400px;
@@ -95,7 +95,7 @@ body {
   padding: 10px;
   min-width: 100px;
   border-radius: 20px;
-  color:#0af351;
+  color:#32809b;
   margin: 20px;
   outline: none;
   cursor: pointer;
@@ -123,21 +123,21 @@ input[type=submit],
 .btn-ghost:visited,
 .btn-overlay:link,
 .btn-overlay:visited{
-   border: 1px solid #0af351; 
-    color:#0af351; 
+   border: 1px solid #32809b; 
+    color:#32809b; 
 }
 .btn:hover,
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active{
-    background-color:#09d246;
+    background-color:#32809b;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active,
 .btn-overlay:hover,
 .btn-overlay:active{
-   border: 1px solid #0af351; 
+   border: 1px solid #32809b; 
     color:#fff; 
 }
 
